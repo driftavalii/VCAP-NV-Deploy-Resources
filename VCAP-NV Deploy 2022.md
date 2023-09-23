@@ -61,6 +61,8 @@ nsx-manager-
 192.168.75.
 192.168.16.8
 
+- [Running ESXi Nodes in eve-ng](https://interestingtraffic.nl/2017/03/21/running-esxi-nodes-in-eve-ng/)
+
 ###### Design - vSphere Networking Design for the Management Domain [^vvd6.2]
 
 [^vvd6.2]: [vSphere Networking Design for the Management Domain](https://docs.vmware.com/en/VMware-Validated-Design/6.2/sddc-architecture-and-design-for-the-management-domain/GUID-451FC9C4-3CEA-45E4-BD3B-727A94225C3F.html)
@@ -73,6 +75,18 @@ nsx-manager-
 | Improve availability | A well-designed network improves availability, usually by providing network redundancy. |
 | Support security | A well-designed network supports an acceptable level of security through controlled access and isolation, where required. |
 | Enhance infrastructure functionality | You can configure the network to support vSphere features such as vSphere vMotion, vSphere High Availability, and vSphere Fault Tolerance.|
+
+- [VMworld 2012 Session NET2207: VMware vSphere Distributed Switch Technical Deep Dive](https://www.youtube.com/watch?v=wsyGChAVey4)
+- [VMworld 2013: Session NET5521 - vSphere Distributed Switch - Design and Best Practices](https://www.youtube.com/watch?v=zSioN5INhWM)
+- [VMworld 2014: NET1401 - vSphere Distributed Switch Best Practices for NSX](https://www.youtube.com/watch?v=p0Sx4OC31iM)
+- [VMworld 2015: NET4976 - vSphere Distributed Switch 6 –Technical Deep Dive](https://www.youtube.com/watch?v=IJCbqxELrfg)
+
+###### Deploy NSX-T
+
+- [TAM Lab 025 - NSX-T Lab Install](https://www.youtube.com/watch?v=1cFCE7f7K8w)
+
+- [NSX-T Data Center Installation Guide](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/installation/GUID-3E0C4CEC-D593-4395-84C4-150CD6285963.html)
+  - [NSX-T Data Center Workflow for vSphere](https://docs.vmware.com/en/VMware-NSX-T-Data-Center/3.2/installation/GUID-414C33B3-674F-44E0-94B8-BFC0B9056B33.html)
 
 ##### Objective 4.1.2 - Configure Management, Control and Data plane components for NSX-T Data Center
 
@@ -166,3 +180,27 @@ nsx-manager-
 #### Objective 7.2 - Utilize API and CLI to manage a VMware NSX-T Data Center Deployment
 
 ##### Objective 7.2.1 - Administer and Execute calls using the VMware NSX-T Data Center vSphere API
+
+## VCDX To be Moved
+
+- [VCDX Preparation](https://www.youtube.com/playlist?list=PL6611Q6qmwxV4ej2qWwB1cmvRWtTcLPNk)
+  - [VCDX Workshop](https://www.youtube.com/watch?v=Llty1D1yFII)
+  - [VCDX Defense Preparation: Defending Your Design](https://www.youtube.com/watch?v=Mb8kjoYGTD4)
+  - [VCDX Defense Preparation: Troubleshooting Scenario Examples](https://www.youtube.com/watch?v=02PPZ3EAnak)
+  - [VCDX Defense Preparation: Design Scenario Examples](https://www.youtube.com/watch?v=03cgdD7UYVI)
+  - [VCDX Defense Preparation: What Not to Say](https://www.youtube.com/watch?v=h4F7ZNSULD8)
+  - [Preparing for Your VCDX Defense: Things You Need to Know](https://www.youtube.com/watch?v=rigx4luO9ys)
+  - [VMworld 2018 Abdullah Abdullah - VCDX NV Design Scenario - Walking The Last Mile](https://www.youtube.com/watch?v=Z4DagBGOdoI)
+- [Johan van Amersfoort and Frank Denneman present a NUMA deep dive](https://www.youtube.com/watch?v=VnfFk1W1MqE&list=PLN6J95LxW2cGVFtvO-lrbSnQRMUL8XMaR&index=94)
+
+- [Project Photon OS](https://vmware.github.io/photon/)
+- [HOL Three-Tier Application, Part 1](https://blogs.vmware.com/hol/2017/01/hol-three-tier-application-part-1.html)
+- [HOL Three-Tier Application, Part 2 – DB server](https://blogs.vmware.com/hol/2017/01/hol-three-tier-application-part-2-db-server.html)
+- [HOL Three-Tier Application, Part 3 – App Server](https://blogs.vmware.com/hol/2017/01/hol-three-tier-application-part-3-app-server.html)
+- [HOL Three-Tier Application, Part 4 – Web Server](https://blogs.vmware.com/hol/2017/02/hol-three-tier-application-part-4-web-server.html)
+- [HOL Three-Tier Application, Part 5 – Use Cases](https://blogs.vmware.com/hol/2017/02/hol-three-tier-application-part-5-use-cases.html)
+- [hol-3-tier-app](https://github.com/doug-baer/hol-3-tier-app)
+
+- [HPE Service Pack for ProLiant (SPP) Version 2021.10.0](https://technet24.ir/%d8%af%d8%a7%d9%86%d9%84%d9%88%d8%af-%d8%b3%d8%b1%d9%88%db%8c%d8%b3-%d9%be%da%a9-hpe-service-pack-for-proliant-9872)
+- [HPE Service Pack for ProLiant 2017.07.1](https://technet24.ir/hpe-service-pack-for-proliant-2017-07-1-9095)
+- [HPE Service Pack for ProLiant 2016.10.0](https://technet24.ir/download-and-training-for-hp-service-pack-for-proliant-783)
